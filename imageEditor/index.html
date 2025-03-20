@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageEditor</title>
+    <link rel="stylesheet" href="imgE.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <section class="firstSection">
+            <div class="logoName">
+                <h1>Image Editor</h1>
+            </div>
+            <div class="imgEditor">
+                <div class="left">
+                    <div class="fName">
+                        <h1>Filters</h1>
+                    </div>
+                    <div class="filterContent">
+                        <button>Brightness</button>
+                        <button>Saturation</button>
+                        <button>Inversion</button>
+                        <button>Greyscale</button>
+                    </div>
+                    <div class="brightContent">
+                        <label for="brightNessInput">
+                            <h1>Brightness</h1>
+                            <input type="range" name="" id="brightNessInput">
+                        </label>
+                    </div>
+                    <div class="rfName">
+                        <h1>Rotate and Crops</h1>
+                    </div>
+                    <div class="rfContent">
+                        <button><i class="fa-solid fa-rotate-left"></i></button>
+                        <button><i class="fa-solid fa-rotate-right"></i></button>
+                        <button><i class="fa-solid fa-crop"></i></button>
+                        <button><i class="fa-solid fa-download"></i></button>
+                    </div>
+                </div>
+                <div class="right">
+                    <p>Choose an images from gallery</p>
+                </div>
+            </div>
+            <div class="workBtn">
+                <button id="rstBtn">Reset Filters</button>
+                <div class="activitesBtn">
+                    <button id="chBtn">
+                        <label for="chooseImages">
+                            <input type="file" name="file" id="chooseImages" required>
+                        </label>
+                    </button>
+                    <button id="shBtn">
+                        <i class="fa-solid fa-share-from-square"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="imgE.js" defer></script>
+</body>
+
+</html>

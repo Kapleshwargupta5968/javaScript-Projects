@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main .firstSection{
+    height: 100vh;
+    width: 100vw;
+    background-color:aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+main .firstSection .imageContainer{
+height: 70%;
+width:70%;
+background-color: red;
+position: relative;
+overflow-x: hidden;
+}
+main .firstSection #btn1{
+    height: 5%;
+    width: 5%;
+    font-size: 2rem;
+    position: absolute;
+    left:50px;
+    text-align: center;
+}
+main .firstSection #btn2{
+    height: 5%;
+    width: 5%;
+    font-size: 2rem;
+    position: absolute;
+    right:50px;
+    text-align: center;
+}
+main .firstSection .imageContainer #slide1{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 11;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+}
+main .firstSection .imageContainer #slide2{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}
+main .firstSection .imageContainer #slide3{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}
+main .firstSection .imageContainer #slide4{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}
+main .firstSection .imageContainer #slide5{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 7;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}
+main .firstSection .imageContainer #slide6{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 6;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}
+main .firstSection .imageContainer #slide7{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 4;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}
+main .firstSection .imageContainer #slide8{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+
+}
+main .firstSection .imageContainer #slide9{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s ease-in-out;
+    
+}
+main .firstSection .imageContainer #slide10{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    object-fit: cover;
+    object-position: center;
+    transition: 1s;
+    
+}

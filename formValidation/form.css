@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fceaea;
+}
+main .formContainer{
+    min-height: 500px;
+    width: 530px;
+    /* border: 2px solid red; */
+    margin: 100px 550px;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 30px;
+    background-color: #f3fbfe;
+    box-shadow: 4px 11px 20px 0px #e9e9f5;
+}
+main .formContainer #form{
+    margin: 30px 0px;
+}
+main .formContainer #form .usersDetail{
+    text-align: justify;
+    /* border: 2px solid yellow; */
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 20px 0px -31px 0px;
+}
+main .formContainer #form .usersDetail input{
+    padding: 7px;
+    margin: 5px 10px;
+    border-radius:10px;
+    outline: none;
+    font-size: 17px;
+    border: none;
+}
+#form .uName{
+    margin: 0px 0px 20px 0px;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    font-size: 27px;
+}
+/* #form .uName input{
+    padding: 5px;
+} */
+#form .uName #userName{
+    /* border:2px solid red; */
+    position: relative;
+    left: 135px;
+    height: 100%;
+    width: 100%;
+}
+
+#form .uName #userName span{
+    position: relative;
+    top:4px;
+}
+#form .age{
+    margin: 10px 0px;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+}
+#form .age input{
+    width: 225px;
+}
+#form .age #userAge{
+    /* border:2px solid red; */
+    position: relative;
+    left: 135px;
+}
+#form .emailId{
+    margin: 20px 0px;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+}
+#form .emailId #userEmail{
+    /* border:2px solid red; */
+    position: relative;
+    left: 135px;
+}
+#form .mobileNo{
+    margin: 20px 0px;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+}
+#form .mobileNo #userNumber{
+    /* border:2px solid red; */
+    position: relative;
+    left: 135px;
+
+}
+#form .gender{
+    margin: 20px 0px;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+}
+#form .gender #userGender{
+    position: relative;
+    left: 180px;
+    bottom: 11px;
+}
+#form .gender p{
+    position: relative;
+    left:137px;
+    top:12px;
+}
+#form .address{
+    /* margin: 15px 0px; */
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    font-size: 21px;
+}
+#form .address span{
+    position: relative;
+    bottom: 17px;
+}
+#form .address #userAddress{
+    /* border:2px solid red; */
+    position: relative;
+    left: 135px;
+}
+#form .address textarea{
+    margin: 5px 10px;
+    border-radius: 10px;
+    width: 225px;
+    outline: none;
+    font-size: 21px;
+}
+#form .btn{
+    margin: 20px 0px 5px 0px;
+    /* border: 2px solid navy; */
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#form .btn button{
+    font-size: 21px;
+    width: 150px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}

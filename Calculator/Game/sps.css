@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main .firstSection{
+    /* border: 2px solid red; */
+    height:70vh;
+    width:100vh;
+    margin: 100px 430px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 1px 3px 7px 0px cyan;
+}
+main .firstSection h1{
+    font-size: 50px;
+    margin: 20px 0px;
+}
+.firstSection .gameContainer{
+    /* border:2px solid blue; */
+    height:40vmin;
+    width: 100%;
+    margin: 50px 0px;
+}
+.firstSection .gameContainer .boxImg{
+    /* border: 2px solid yellow; */
+    height: 20vmin;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.firstSection .gameContainer .boxImg .box{
+    height: 15vmin;
+    width: 20vmin;
+    border:2px solid green;
+    outline: none;
+    border: none;
+    box-shadow: 1px 3px 7px 0px #ffe5d9;
+}
+.firstSection .gameContainer .boxImg .box img{
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit:fill;
+    object-position: center;
+}
+.firstSection .gameContainer .msgContainer button{
+    margin:50px 0px;
+    height: 3rem;
+    width:25rem;
+    font-size: 1.5rem;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+.firstSection .gameContainer .msgContainer button:hover{
+    box-shadow: 1px 3px 7px 0px #ffe5d9;
+}
+.firstSection .gameContainer .scoreBtn{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin:20px 0px;
+}
+.firstSection .gameContainer .scoreBtn button{
+    height: 1.5rem;
+    width: 2rem;
+    margin: 1rem 1rem;
+}

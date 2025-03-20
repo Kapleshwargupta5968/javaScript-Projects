@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: lightcyan;
+}
+main .bmiBody{
+    min-height: 300px;
+    width: 500px;
+    /* border: 2px solid red; */
+    margin: 200px 550px;
+    box-shadow: 13px 14px 17px 0px lavender;
+    background-color: #d9f9fc;
+    border-radius: 20px;
+}
+main .bmiBody .bmiName{
+    text-align: center;
+}
+main .bmiBody .bmiName p{
+    font-size: 40px;
+    font-weight: 900;
+}
+main .firstSection{
+    /* border: 2px solid blue; */
+    margin: 50px 0px;
+    text-align: center;
+    /* padding: 50px; */
+}
+.firstSection .heightInput{
+    margin: 20px;
+    font-size: 20px;
+}
+.firstSection .heightInput input{
+    padding:5px;
+    position: relative;
+    left:5px;
+}
+.firstSection .weightInput{
+    margin: 20px;
+    font-size: 20px;
+}
+.firstSection .weightInput input{
+    padding:5px;
+    position: relative;
+    left:2px;
+}
+.firstSection .bmiCalculate{
+    margin: 20px;
+}
+.firstSection .bmiCalculate button{
+    /* border: none; */
+    outline: none;
+    border-radius: 10px;
+    font-size:30px;
+}
+.firstSection #bmiScore{
+    margin: 10px;
+}
+.firstSection #bmiResult{
+    margin: 10px;
+}

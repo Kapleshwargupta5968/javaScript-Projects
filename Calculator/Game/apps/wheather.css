@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+main .appSection{
+    border:2px solid red;
+    height: 80vmin;
+    width: 70vmin;
+    margin: 110px 530px;
+    
+}
+main .appSection .wheatherContent{
+    border: 2px solid blue;
+    height: 100%;
+    width: 100%;
+}
+
+.wheatherContent .searchArea{
+    border:2px solid green;
+    height: 10vmin;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.wheatherContent .searchArea .left input{
+    height: 3rem;
+    width: 21rem;
+    margin: 10px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.wheatherContent .searchArea .right{
+    border: 2px solid blueviolet;
+    border-radius: 50%;
+    height: 7vmin;
+    width: 7vmin;
+    text-align: center;
+    margin: 10px;
+
+}
+.wheatherContent .searchArea .right .fa-solid{
+    position: relative;
+    top:10px;
+    font-size: 30px;
+}
